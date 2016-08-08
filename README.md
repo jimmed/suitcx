@@ -1,5 +1,5 @@
 # suitcx
-It's like `classnames`, but for SuitCSS components
+It's like [`classnames`](classnames), but for [SuitCSS](suitcss) components.
 
 ## Example
 
@@ -20,17 +20,17 @@ suitcx('Panel', { anchor: 'top' }, { active: true })
 
 ## Parameters
 
-### `parent`
+### `parent` (string)
 
-The base SuitCSS class name to use. For example, `ChatMessage` or `Modal-header`
+The base SuitCSS class name to use. For example, `ChatMessage` or `Modal-header`.
 
-### `modifiers` (optional)
+### `modifiers` (object, optional)
 
 An optional object representing the SuitCSS modifiers to apply.
 
 For each key/value pair of the object:
 
-- if the value is a string, then the modifier applied will be composed of the key and value, camel-cased together.
+- if the value is a string, then the modifier applied will be composed of the key and value, camel-cased together,
 - otherwise, if the value is truthy, then the key will be used as the modifier name.
 
 For example, the following `modifiers` parameter results in the modifiers, `alignLeft`, `colorDarkBlue` and `hollow` to be applied:
@@ -44,7 +44,7 @@ For example, the following `modifiers` parameter results in the modifiers, `alig
 }
 ```
 
-### `state` (optional)
+### `state` (object, optional)
 
 An optional object representing the SuitCSS state to apply.
 
@@ -59,3 +59,6 @@ For example, the following `state` parameter results in the state `is-active is-
   pressed: false
 }
 ```
+
+[classnames]: https://www.npmjs.com/package/classnames
+[suitcss]: https://www.npmjs.com/package/suitcss
