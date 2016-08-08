@@ -1,5 +1,5 @@
 # suitcx
-It's like [`classnames`](classnames), but for [SuitCSS](suitcss) components.
+It's like [`classnames`][classnames], but for [SuitCSS][suitcss] components.
 
 ## Example
 
