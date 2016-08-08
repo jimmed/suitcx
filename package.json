@@ -1,0 +1,33 @@
+{
+  "name": "suitcx",
+  "version": "0.1.0",
+  "description": "It's classnames, wearing a suit.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmed/suitcx.git"
+  },
+  "keywords": [
+    "utility",
+    "util",
+    "classnames",
+    "classname",
+    "classes",
+    "css",
+    "react",
+    "style",
+    "suitcss",
+    "css-utilities",
+    "css-components",
+    "browser"
+  ],
+  "author": "Jim O'Brien <npm@jimmed.net>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jimmed/suitcx/issues"
+  },
+  "homepage": "https://github.com/jimmed/suitcx#readme",
+  "dependencies": {
+    "classnames": "^2.2.5"
+  }
+}
